@@ -1,5 +1,12 @@
 import React from 'react';
 import marked from 'marked';
+
+marked.setOptions({
+    breaks:true,
+    sanitize: true,
+    gfm: true
+
+})
 const Preview = (props) => {
     return (
         <div>
