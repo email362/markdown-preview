@@ -3,7 +3,6 @@ import marked from 'marked';
 
 marked.setOptions({
     breaks:true,
-    sanitize: true,
     gfm: true
 
 })
