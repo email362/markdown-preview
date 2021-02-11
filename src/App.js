@@ -8,7 +8,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      input:''
+      input:"# h1\n## h2\n[link](http://www.wikipedia.org)\n`inline code`\n   ```\ncode block\n ``` \n 1. list item\n >blockquote \n ![image](http://www.placehold.it/100x100)\n**bolded text**"
     }
     this.handleChange = this.handleChange.bind(this)
   }
